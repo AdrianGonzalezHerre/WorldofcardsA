@@ -1,0 +1,37 @@
+nav{
+    width: 100%;
+    background-color: rgb(131, 235, 200);
+   
+}
+
+.Menu{
+    display: none;
+    text-align: center;
+    border-bottom: 3px  solid;
+    border-top:3px solid;
+}
+
+.Menu-Hamburguesa{
+    border-bottom: 3px solid;
+}
+
+.Menu-Hamburguesa img{
+    width: 4%;
+    transition-duration: 0.4s;
+}
+
+.Menu-Hamburguesa img:hover{
+    transform: scale(1.2);
+}
+
+.Menu-Hamburguesa input{
+    transform: scale(440%);
+    margin-left: 1.5%;
+    margin-top: 3.5vh;
+    position: absolute;
+    opacity: 0;
+}
+
+.Menu-Hamburguesa input:checked ~ .Menu{
+   display:block;
+}

@@ -1,0 +1,55 @@
+a{
+    text-decoration: none;
+    color:coral;
+}
+a:hover{
+    transform: scale(110%);
+    text-decoration: underline;
+}
+
+section{
+    z-index: 3;
+}
+.Texas{
+    position: absolute;
+   top: 52%;
+   padding: 4%;
+  
+}
+.Texas h2{
+    text-align: center;
+    background-color: rgb(219, 118, 118);
+    border-radius: 40% 40%;
+}
+
+#Intro,#Comienzo,#Flop,#Cuarta-Quinta,#Revelar{
+text-align: center;
+padding: 4%;
+background-color: rgb(182, 65, 65);
+margin-top: 3%;
+border-radius: 60px 60px;
+
+ }
+
+ .Atras,.Inicio{
+     position: absolute;
+     background-color: rgb(112, 33, 33);
+     width: 25%;
+     text-align: center;
+     border-radius: 20% 20%;
+     height: 5vh;
+     font-size: 120%;
+     margin-bottom: 5%;
+ }
+
+ .Atras{
+     top: 100%;
+     left: 55%;
+ }
+ .Inicio{
+     left: 20%;
+     top: 100%
+ }
+
+ @media screen and (max-width: 640px) {
+ }

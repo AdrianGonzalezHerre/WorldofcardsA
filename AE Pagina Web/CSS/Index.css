@@ -1,0 +1,32 @@
+
+main img{
+    width: 100%;
+}
+footer{
+    width: 100%; 
+   background: linear-gradient(to left, rgb(91, 70, 167),rgb(94, 223, 68));
+    height: 10vh;
+}
+
+footer a img {
+    width: 5%;
+}
+
+.Contacto p{
+margin-left: 10%;
+padding-top: 1.5%;
+}
+
+.Redes{
+    margin-left: 70%;
+    margin-bottom: 10%;
+    position: relative;
+    bottom: 20%;
+
+    
+
+}
+
+.Redes i{
+transform: scale(200%);
+width: 10%;}
